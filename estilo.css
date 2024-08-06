@@ -1,0 +1,173 @@
+/* grilla adaptativa CSS */
+* {box-sizing: border-box;}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#fondo1{
+	background-color: #cccccc;
+	background-image: url("FONDO.jpg");
+	 }
+
+#fondo2 {
+background-color: bisque;
+}
+
+#titulo {
+    font-size: 4em; /* Tamaño del texto */
+	justify-content: center;  
+	align-items: center;  
+	color: white;  
+   text-align: center;
+   text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+   padding-top: 100px;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+   }
+
+#button{
+    background-color:black;
+    border: none;
+    color:#cccccc;
+    padding: 20px 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 200px auto 200px auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: block;
+    width: 80%;  
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.19);
+	border-radius: 40px;
+}
+
+.parrafo {
+	font-family: italic;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.quote {
+	margin-top: 200px;
+	font-weight: bold;
+	color: #cccccc;
+	text-shadow: black;
+	background-color: black;
+	border-radius: 40px;
+	padding: 20px 20px 20px 20px;
+}
+
+.autor {
+	color: #cccccc;
+	font-weight: bold;
+	text-align: right;
+}
+
+.nombre {
+	margin-left: 50px;
+	margin-top: 60px;
+	color: #333;
+	background-color: rgb(254, 190, 112);
+	padding: 50px;
+	padding-right: 600px;
+}
+.imagen-redonda {
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 150px; /* Ancho de la imagen */
+	height: 150px; /* Alto de la imagen */
+	border-radius: 50%; /* Hace que la imagen sea redonda */
+	object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin deformarla */
+	border: 5px solid #333; /* Opcional: agrega un borde alrededor de la imagen */
+	float: left;
+}
+
+.contenedor {
+	display: flex;
+	align-items: center; /* Alinea verticalmente en el centro */
+}
+p {
+	margin-left: 250px;
+	margin-right: 200px;
+
+}
+
+.bloque {
+	margin-left: 250px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: small;
+}
+
+table {
+    border-spacing: 7px; /* Espacio entre las celdas */
+    width: 100%;
+  }
+  th, td {
+    padding: 1px; /* Espaciado interno en las celdas */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+/* .row::after {content: ""; clear: both; display: table;}
+
+[class*="col-"] {float: left;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* For mobile phones: 
+* {box-sizing: border-box;}
+
+/* .row::after {content: ""; clear: both; display: table;}
+[class*="col-"] {
+	width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+	For desktop: 
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+  } */
+/*
+  @media only screen and (min-width: 600px) {
+	For tablets: 
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+}
+*/
